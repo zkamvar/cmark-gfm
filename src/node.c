@@ -289,9 +289,9 @@ const char *cmark_node_get_type_string(cmark_node *node) {
   case CMARK_NODE_IMAGE:
     return "image";
   case CMARK_NODE_FOOTNOTE_REFERENCE:
-    return "fnref"
+    return "fnref";
   case CMARK_NODE_FOOTNOTE_DEFINITION:
-    return "fn"
+    return "fn";
   }
 
   return "<unknown>";
